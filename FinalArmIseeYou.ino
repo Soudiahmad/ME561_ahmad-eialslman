@@ -19,6 +19,8 @@ void setup() {
   armServo.attach(7);
   wristServo.attach(8);
   gripperServo.attach(9);
+  armServo.attach(7);
+
 
   // Initialize servos to their initial positions
   baseServo.write(baseInitialPosition);
